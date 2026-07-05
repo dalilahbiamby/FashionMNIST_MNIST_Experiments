@@ -15,8 +15,7 @@ The exact quantity of training data required for reliable image classification i
 ## Running the code
 The notebooks were run on Google Colab with an NVIDIA A100 GPU (40 GB). The dense
 experiments run on any GPU runtime. The sparse experiments use a custom
-`SparseConv2D` layer built on `tf.map_fn` and are slow regardless of the GPU used
-(see thesis Section 3.13).
+`SparseConv2D` layer built on `tf.map_fn` and are slow regardless of the GPU used.
 
 1. Open a notebook in Colab.
 2. Mount Google Drive when prompted.
@@ -26,7 +25,8 @@ experiments run on any GPU runtime. The sparse experiments use a custom
 3. Run the setup cells (1–5) before any experiment cell. Experiment cells 6–10 are
    independent of each other.
 4. Cells 1 through 9 are in a file loaded from Google Colab named: Dense_Sparse_Experiments.ipynb
-5. Cell 10 in a seperate file loaded from Google Colab named: Dense_Sparse_HOP_Experiments.ipynb
+5. Cell 10 in split into two parts in seperate files loaded from Google Colab named:
+   Dense_Sparse_HOP_Experiments(1).ipynb & Dense_Sparse_HOP_Experiments(2).ipynb
    
 
 Datasets (Fashion-MNIST, MNIST) are downloaded automatically through `keras.datasets`.
