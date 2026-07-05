@@ -25,6 +25,9 @@ experiments run on any GPU runtime. The sparse experiments use a custom
      be rerun and will continue from the last saved point.)
 3. Run the setup cells (1–5) before any experiment cell. Experiment cells 6–10 are
    independent of each other.
+4. Cells 1 through 9 are in a file loaded from Google Colab named: Dense_Sparse_Experiments.ipynb
+5. Cell 10 in a seperate file loaded from Google Colab named: Dense_Sparse_HOP_Experiments.ipynb
+   
 
 Datasets (Fashion-MNIST, MNIST) are downloaded automatically through `keras.datasets`.
 
