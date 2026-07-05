@@ -2,8 +2,6 @@
 
 ## Abstract
 
-Abstract
-
 The exact quantity of training data required for reliable image classification is rarely known in advance, leading organisations to suffer overcollection costs. In this thesis, the effects training set size has on the test accuracy of a fixed shallow convolutional neural network (CNN) on Fashion-MNIST and MNIST, two structurally similar benchmark datasets differing primarily in their visual class complexity is investigated. To achieve this, learning curves were measured at seven training set sizes spanning between 600 to 60,000 images, fitted to a power-law function, and their plateaus were evaluated. For both datasets the power law function with R² ≥ 0.998 was observed, although with different scaling. MNIST plateaued at about 9,200 images, while Fashion-MNIST did not within an extrapolated range of 500,000 images. This large data dependence is attributed to the visual complexity of the clothing categories. A sparse architecture was trained on external-contour-only outlines, it reached 97.7% accuracy on MNIST but its estimated accuracy ceiling was eight percentage points below the dense model on Fashion-MNIST, an indication that interior texture is an essential signal for clothing classification. The kernel activation pattern experiments demonstrated that border ring kernels match the accuracy of fully dense kernels, while the removal of spatial context is the most negative impact when the input is sparsest. In conclusion, the learning curve and configuration experiments provide a practical basis for data collection decisions in comparable small scale image classification contexts. 
 
 ## Expected Outputs:
